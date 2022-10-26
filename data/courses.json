@@ -1,0 +1,50 @@
+[
+    {
+        "id": "01",
+        "name": "Ansi C",
+        "img": "https://c8.alamy.com/comp/F2HYA9/c-programming-showing-software-design-and-programmer-F2HYA9.jpg",
+        "text": "C is a powerful general-purpose programming language. It can be used to develop software like operating systems, databases, compilers, and so on.",
+        "features": "[Simple, Machine Independent or Portable, Mid-level programming language, structured programming language, Rich Library, Memory Management, Fast Speed, Pointers, Recursion, Extensible]",
+        "price": "1000"
+    },
+    {
+        "id": "02",
+        "name": "C++",
+        "img": "https://www.booktionary.com.bd/storage/app/book//image78636.jpg",
+        "text": "C++ is one of the world's most popular programming languages. C++ can be found in today's operating systems, Graphical User Interfaces, and embedded systems.",
+        "features": "[Object Oriented, Simple, Platform Dependent, Mid-level programming language, Structured programming language, Rich Library, Memory Management, Powerful & Fast, Pointers, Compiler based, Syntax based language]",
+        "price": "1500"
+    },
+    {
+        "id": "03",
+        "name": "Java",
+        "img": "https://5.imimg.com/data5/QQ/CT/AO/GLADMIN-25397883/selection-064-500x500.png",
+        "text": "Java is a popular programming language. Java is used to develop mobile apps, web apps, desktop apps, games and much more.",
+        "features": "[Simple, Object-Oriented, Portable, Platform independent, Secured, Robust, Architecture neutral, Interpreted, High Performance, Multithreaded, Distributed, Dynamic]",
+        "price": "2000"
+    },
+    {
+        "id": "04",
+        "name": "Python",
+        "img": "https://www.besanttechnologies.com/wp-content/uploads/2018/11/what-is-python-programming.jpg",
+        "text": "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
+        "features": "[Simplicity, Free & Open Source, Easy to maintain, Hegh Level Language, Databases, Easy to Learn, Scalability, Portability, Interrepted, Statements, Interactive, Object-Oriented]",
+        "price": "1500"
+    },
+    {
+        "id": "05",
+        "name": "Go",
+        "img": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1580698183l/50924955._SY475_.jpg",
+        "text": " Go, also known as Golang, is an open-source, compiled, and statically typed programming language designed by Google.",
+        "features": "[Development, Binaries, Language Design, Powerful Standard Library, Package Management, Static Typing, Concurrency Support, Testing Support]",
+        "price": "1500"
+    },
+    {
+        "id": "06",
+        "name": "PHP",
+        "img": "https://www.devopsschool.com/blog/wp-content/uploads/2022/03/php-programming-language.jpg",
+        "text": "PHP is a general-purpose scripting language geared toward web development. ... It was originally created by Danish-Canadian programmer Rasmus Lerdorf in 1993.",
+        "features": "[Large choice of available specialists, Plentiful documentation, Improved loading speed, Wide selection of databases, Inexpensive open-source software, Cheaper hosting services, Excellent combinability with HTML, Good flexibility.]",
+        "price": "1500"
+    }
+]
