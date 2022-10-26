@@ -1,16 +1,27 @@
 const express=require('express')
-consst app=express();
+const app=express();
 const port=process.env.PORT || 5000;
-
+const cors = require('cors');
 
 const courses=require('./data/courses.json');
 
-app.get('/', (req, res)=>{
-    res.send('News API Running');
+app.use(cors());
+
+app.get("/", async (req, res) => {
+    return res.status(200).send(`<h1>Express server</h1>`)
+})
+
+app.get('/courses', async (req, res)=>{
+    return res.status(200).json(courses);
 });
 
-app.get('/course-name', (req, res)=>{
-    res.send(courses)
+app.get('/course/:id', async (req, res)=>{
+    const course = courses.find(c => c.id === req.params.id)
+    if(course){
+        return res.status(200).json(course);
+    }
+
+    return res.status(404).json({message: "course not found!"})
 })
 
 app.listen(port, ()=>{
